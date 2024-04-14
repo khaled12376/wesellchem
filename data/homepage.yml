@@ -1,0 +1,42 @@
+banner:
+  enable: true
+  image: "images/banner.jpg"
+  contents: "**WeSellChem:** _Your Trusted Partner in Chemical Trading_"
+  button:
+    contents: "Learn More"
+    url: "#"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+      - title: Quality Products
+        icon: fa-flask
+        content: >
+          We offer a wide range of high-quality chemicals sourced from reputable manufacturers to meet your diverse needs.
+
+      - title: Global Reach
+        icon: fa-globe
+        content: >
+          With our extensive network of suppliers and partners, we ensure prompt delivery and competitive pricing worldwide.
+
+      - title: Expert Support
+        icon: fa-users
+        content: >
+          Our team of experienced professionals provides expert advice and technical support to help you find the right solutions.
+
+  - type: heading
+    heading: Welcome to WeSellChem
+    contents: 
+      We are a leading chemicals trading company dedicated to delivering excellence in product quality, customer service, and reliability. Explore our website to learn more about our products and services.
+
+  - type: posts
+    content_type: posts
+    max: 3  # Display up to 3 recent posts
+    # Uncomment the following line to add a heading for the posts section
+    # heading: Recent News
+
+  - type: cta
+    contents: Ready to partner with us?
+    button:
+      contents: Contact Us
+      url: "/contact"  # Replace "/contact" with the actual URL of your contact page
